@@ -599,4 +599,5 @@ const CharacterData = characterData.map((character, index) => {
   };
 });
 
+export default CharacterData;
 module.exports = CharacterData;

@@ -26,7 +26,7 @@ export default function Header() {
               <div className="absolute inset-y-0 left-0 flex items-center">
                 <div className="flex flex-shrink-0 items-center text-lg font-semibold Genshin-Impact">
                   <span className="text-purple-900 pr-1.5">Keqing</span>
-                  <span className="text-purple-100">Calc</span>
+                  <span className="text-purple-100">Info</span>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-auto sm:pr-0">

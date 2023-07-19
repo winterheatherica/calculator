@@ -11,7 +11,7 @@ export default function Example() {
             variant="small"
             className="mb-4 text-center font-normal Genshin-Impact text-purple-200 md:mb-0"
           >
-            &copy;{" "}<a href="/">Keqing Calc</a>. Demo Version.
+            &copy;{" "}<a href="/">Keqing Info</a>. Demo Version.
           </Typography>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center items-center"> {""}
             <Typography
