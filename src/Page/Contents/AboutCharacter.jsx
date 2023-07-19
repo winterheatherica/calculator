@@ -70,6 +70,7 @@ export default function AboutCharacter() {
           alt={`Character ${i + 1}`}
           isSelected={selectedCharacter === i}
           onClick={() => handleCharacterButtonClick(i)}
+          ringClass={ringClass}
         />
       );
     }

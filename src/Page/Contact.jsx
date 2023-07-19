@@ -4,8 +4,6 @@ import KeqingBackground from '../Image/KeqingBackground.jpg';
 import InstagramLogo from '../Image/Instagram-Logo.wine.svg';
 import TwitterLogo from '../Image/Twitter-Logo.wine.svg';
 import GitHubLogo from '../Image/GitHub-Logo.wine.svg';
-// import Keqing from '../Image/Keqing.png';
-// import Ningguang from '../Image/Ningguang.png';
 
 const Contact = () => {
   return (
@@ -17,21 +15,21 @@ const Contact = () => {
             title1={
               <div className="flex justify-center items-center">
                 <a href="https://www.instagram.com/devalvv/" target="_blank" rel="noopener noreferrer">
-                  <img src={InstagramLogo} alt="Instagram" />
+                  <img src={InstagramLogo} alt="Instagram" className="logo" />
                 </a>
               </div>
             }
             title2={
               <div className="flex justify-center items-center">
                 <a href="https://twitter.com/dxvalv/" target="_blank" rel="noopener noreferrer">
-                  <img src={TwitterLogo} alt="Twitter" />
+                  <img src={TwitterLogo} alt="Twitter" className="logo" />
                 </a>
               </div>
             }
             title3={
               <div className="flex justify-center items-center">
                 <a href="https://github.com/RioBithub/" target="_blank" rel="noopener noreferrer">
-                  <img src={GitHubLogo} alt="GitHub" />
+                  <img src={GitHubLogo} alt="GitHub" className="logo" />
                 </a>
               </div>
             }
@@ -46,21 +44,21 @@ const Contact = () => {
             title1={
               <div className="flex justify-center items-center">
                 <a href="https://www.instagram.com/im_keqing/" target="_blank" rel="noopener noreferrer">
-                  <img src={InstagramLogo} alt="Instagram" />
+                  <img src={InstagramLogo} alt="Instagram" className="logo" />
                 </a>
               </div>
             }
             title2={
               <div className="flex justify-center items-center">
                 <a href="https://twitter.com/winter_heath_/" target="_blank" rel="noopener noreferrer">
-                  <img src={TwitterLogo} alt="Twitter" />
+                  <img src={TwitterLogo} alt="Twitter" className="logo" />
                 </a>
               </div>
             }
             title3={
               <div className="flex justify-center items-center">
                 <a href="https://github.com/winterheeeeath/" target="_blank" rel="noopener noreferrer">
-                  <img src={GitHubLogo} alt="GitHub" />
+                  <img src={GitHubLogo} alt="GitHub" className="logo" />
                 </a>
               </div>
             }
